@@ -41,7 +41,7 @@ Na pasta `conceitos-java/`, você encontra exemplos de código sobre os seguinte
 
 1. Clone este repositório para sua máquina local:
     ```bash
-    git clone https://github.com/seuprojeto/desafio-backend
+    git clone https://github.com/cezar-66/desafio-backend-cezarmarcal.git
     ```
 
 2. Navegue até a pasta do projeto:
