@@ -1,6 +1,6 @@
 # Desafio Backend Cezar Marçal
 
-Este repositório contém o desenvolvimento do desafio técnico proposto por Cezar Marçal, organizado em 4 partes distintas, com a utilização de Java 17, Spring Boot e H2 como banco de dados para o CRUD. A seguir, explico como o desafio foi organizado e as tecnologias utilizadas.
+Este repositório contém o desenvolvimento do desafio técnico proposto, organizado em 4 partes distintas, com a utilização de Java 17, Spring Boot e H2 como banco de dados para o CRUD. A seguir, explico como o desafio foi organizado e as tecnologias utilizadas.
 
 ## Estrutura do Projeto
 
