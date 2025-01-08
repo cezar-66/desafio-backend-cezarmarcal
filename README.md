@@ -88,7 +88,7 @@ Na pasta `conceitos-java/`, você encontra exemplos de código sobre os seguinte
 
 5. Para testar o CRUD das plantas, utilize a coleção do Postman que se encontra em:
     ```
-    crud-plantas/postman/
+    crud-plantas/postman/planta-controller-endpoints.json
     ```
 
 ## Links Importantes
