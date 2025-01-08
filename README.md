@@ -5,39 +5,14 @@ Este repositório contém o desenvolvimento do desafio técnico proposto por Cez
 ## Estrutura do Projeto
 
 O projeto está dividido nas seguintes pastas:
-desafio-backend-cezarmarcal/
-├── anagramas/
-│   └── src/
-│       └── com.seuprojeto.anagramas/
-│           ├── AnagramGenerator.java
-│           └── AnagramGeneratorTest.java
-├── crud-plantas/
-│   └── src/
-│       └── com.seuprojeto.plantas/
-│           ├── Planta.java
-│           ├── PlantaService.java
-│           ├── PlantaController.java
-│           ├── PlantaTest.java
-│           └── postman/  # Coleção Postman para testes
-├── conceitos-java/
-│   └── src/
-│       └── com.seuprojeto.conceitos/
-│           ├── AdapterPatternExample.java
-│           ├── SqlInjectionExample.java
-│           ├── PerformanceBatchExample.java
-│           └── TestCases.java
-└── sql/
-└── queries.sql
 
+### 1. **Desafio dos Anagramas**
+Na pasta `anagramas/`, você encontrará:
+- **AnagramGenerator.java**: Classe responsável por gerar anagramas.
+- **AnagramGeneratorTest.java**: Teste unitário para a classe `AnagramGenerator.java`.
 
-### 1. Desafio dos Anagramas
-
-Na pasta `anagramas/`, você encontrará a classe `AnagramGenerator.java`, responsável por gerar anagramas, e o respectivo teste unitário `AnagramGeneratorTest.java`.
-
-### 2. CRUD de Plantas
-
+### 2. **CRUD de Plantas**
 O CRUD das plantas está implementado na pasta `crud-plantas/`, com os seguintes arquivos:
-
 - **Planta.java**: Modelo que representa uma planta.
 - **PlantaService.java**: Serviço que gerencia a lógica de negócios.
 - **PlantaController.java**: Controlador que expõe a API REST para o CRUD.
@@ -45,14 +20,11 @@ O CRUD das plantas está implementado na pasta `crud-plantas/`, com os seguintes
 
 Além disso, criei uma coleção do **Postman** para facilitar a execução dos testes das APIs. A coleção está localizada dentro da pasta `crud-plantas/postman/`.
 
-### 3. Consultas SQL
-
+### 3. **Consultas SQL**
 Na pasta `sql/`, você encontrará o arquivo `queries.sql`, que contém as consultas SQL solicitadas no desafio.
 
-### 4. Conceitos Java e Angular
-
+### 4. **Conceitos Java e Angular**
 Na pasta `conceitos-java/`, você encontra exemplos de código sobre os seguintes conceitos:
-
 - **Adapter Pattern**: Implementação de um exemplo de Adapter.
 - **SQL Injection**: Exemplo de vulnerabilidade e como preveni-la.
 - **Performance Batch**: Demonstração de como otimizar um processo de batch.
@@ -88,7 +60,7 @@ Na pasta `conceitos-java/`, você encontra exemplos de código sobre os seguinte
 
 5. Para testar o CRUD das plantas, utilize a coleção do Postman que se encontra em:
     ```
-    crud-plantas/postman/planta-controller-endpoints.json
+    crud-plantas/postman/
     ```
 
 ## Links Importantes
