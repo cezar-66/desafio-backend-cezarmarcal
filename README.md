@@ -39,25 +39,27 @@ Na pasta `sql/`, separei os desafios de SQL, usei banco H2 pra facilitar a execu
 
 2. Navegue até a pasta do projeto:
     ```bash
-    cd desafio-backend
+    cd desafio-backend-cezarmarcal
+    navegue até a pasta 'crud-plantas'
     ```
 
-3. Compile e rode a aplicação com o Maven ou Gradle:
+3. Compile e rode a aplicação com o Maven:
     ```bash
     ./mvnw spring-boot:run
-    # ou, caso esteja utilizando Gradle
-    ./gradlew bootRun
+
+    OU
+    Execute a classe PlantaApplication.java
     ```
 
 4. A aplicação estará rodando localmente na porta `8080`.
 
 5. Para testar o CRUD das plantas, utilize a coleção do Postman que se encontra em:
     ```
-    crud-plantas/postman/
+    crud-plantas/postman/planta-controller-endpoints.json
     ```
 
 ## Links Importantes
-Todas as questões conceituais respondi no formulário que está no link abaixo:
+Todas as questões **conceituais** respondi no formulário que está no link abaixo:
 
 [Especificação do Desafio](https://docs.google.com/document/d/1T0TA91LVzMSHuMbwKsNaS1z_1js9ixG4G3GwYUrbLa4/edit?usp=sharing)
 
