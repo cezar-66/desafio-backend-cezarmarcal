@@ -18,17 +18,10 @@ O CRUD das plantas está implementado na pasta `crud-plantas/`, com os seguintes
 - **PlantaController.java**: Controlador que expõe a API REST para o CRUD.
 - **PlantaTest.java**: Testes unitários para o CRUD.
 
-Além disso, criei uma coleção do **Postman** para facilitar a execução dos testes das APIs. A coleção está localizada dentro da pasta `crud-plantas/postman/`.
+Além disso, criei uma coleção do **Postman** para facilitar a execução dos testes das APIs. A coleção está localizada dentro da pasta `crud-plantas/postman/planta-controller-endpoints.json`.
 
 ### 3. **Consultas SQL**
-Na pasta `sql/`, você encontrará o arquivo `queries.sql`, que contém as consultas SQL solicitadas no desafio.
-
-### 4. **Conceitos Java e Angular**
-Na pasta `conceitos-java/`, você encontra exemplos de código sobre os seguintes conceitos:
-- **Adapter Pattern**: Implementação de um exemplo de Adapter.
-- **SQL Injection**: Exemplo de vulnerabilidade e como preveni-la.
-- **Performance Batch**: Demonstração de como otimizar um processo de batch.
-- **TestCases**: Exemplos de casos de testes para validação.
+Na pasta `sql/`, separei os desafios de SQL, usei banco H2 pra facilitar a execução de testes, mas poder qualquer outro banco relacional ou NoSQL.
 
 ## Tecnologias Utilizadas
 
@@ -64,11 +57,10 @@ Na pasta `conceitos-java/`, você encontra exemplos de código sobre os seguinte
     ```
 
 ## Links Importantes
-
-O desafio foi baseado nas especificações detalhadas no seguinte documento:
+Todas as questões conceituais respondi no formulário que está no link abaixo:
 
 [Especificação do Desafio](https://docs.google.com/document/d/1T0TA91LVzMSHuMbwKsNaS1z_1js9ixG4G3GwYUrbLa4/edit?usp=sharing)
 
 ## Considerações Finais
 
-A estrutura foi organizada para refletir as várias partes do desafio e facilitar a execução e os testes das funcionalidades propostas. Caso tenha dúvidas ou sugestões, fique à vontade para entrar em contato.
+A estrutura foi organizada para refletir as várias partes do desafio e facilitar a execução e os testes das funcionalidades propostas. Caso tenha dúvidas ou sugestões, fiquem à vontade para entrar em contato.
