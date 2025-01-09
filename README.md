@@ -8,8 +8,8 @@ O projeto está dividido nas seguintes pastas:
 
 ### 1. **Desafio dos Anagramas**
 Na pasta `anagramas/`, você encontrará:
-- **AnagramGenerator.java**: Classe responsável por gerar anagramas.
-- **AnagramGeneratorTest.java**: Teste unitário para a classe `AnagramGenerator.java`.
+- **GeradorAnagramas.java**: Classe responsável por gerar anagramas.
+- **GeradorAnagramasTest.java**: Teste unitário para a classe `GeradorAnagramas.java`.
 
 ### 2. **CRUD de Plantas**
 O CRUD das plantas está implementado na pasta `crud-plantas/`, com os seguintes arquivos:
