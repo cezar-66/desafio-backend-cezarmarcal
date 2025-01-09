@@ -36,7 +36,7 @@ public class PlantaServiceTest {
     }
 
     @Test
-    public void testSalvarPlanta() {
+    public void deve_salvar_planta_com_sucesso() {
         when(plantaRepository.save(any(Planta.class))).thenReturn(planta);
 
         Planta resultado = plantaService.salvarPlanta(plantaDTO);
@@ -47,7 +47,7 @@ public class PlantaServiceTest {
     }
 
     @Test
-    public void testListarPlantas() {
+    public void deve_listar_plantas_com_sucesso() {
         when(plantaRepository.findAll()).thenReturn(Arrays.asList(planta));
 
         List<Planta> plantas = plantaService.listarPlantas();
@@ -59,7 +59,7 @@ public class PlantaServiceTest {
     }
 
     @Test
-    public void testBuscarPlantaPorCodigo() {
+    public void deve_buscar_planta_por_codigo_com_sucesso() {
         when(plantaRepository.findById(1L)).thenReturn(Optional.of(planta));
 
         Optional<Planta> resultado = plantaService.buscarPlantaPorCodigo(1L);
@@ -70,7 +70,7 @@ public class PlantaServiceTest {
     }
 
     @Test
-    public void testBuscarPlantaPorCodigoNaoEncontrada() {
+    public void deve_retornar_vazio_quando_buscar_planta_por_codigo_inexistente() {
         when(plantaRepository.findById(1L)).thenReturn(Optional.empty());
 
         Optional<Planta> resultado = plantaService.buscarPlantaPorCodigo(1L);
@@ -80,7 +80,7 @@ public class PlantaServiceTest {
     }
 
     @Test
-    public void testAtualizarPlanta() {
+    public void deve_atualizar_planta_com_sucesso() {
         Planta plantaExistente = new Planta("Planta Antiga Mock");
         plantaExistente.setCodigo(1L);
 
@@ -98,7 +98,7 @@ public class PlantaServiceTest {
     }
 
     @Test
-    public void testDeletarPlanta() {
+    public void deve_deletar_planta_com_sucesso() {
         Long codigoPlanta = 1L;
 
         doNothing().when(plantaRepository).deleteById(codigoPlanta);
