@@ -1,12 +1,25 @@
 package br.com.desafio_backend_cezarmarcal.anagramas;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
+/**
+ * Criei apenas como exemplo essa Classe singleton.
+ * Poderia criar um construtor privado, mas como estamos usando spring é melhor
+ * deixar que o spring gerencie quando uma nova instancia deve ser criada.
+ *
+ * @author cezar.marcal
+ * @since 09/01/2025
+ * */
+@Component
 public class GeradorAnagramas {
+
+    private final String MSG_WARNING = "A entrada não pode ser vazia e deve conter apenas letras.";
 
     public List<String> gerarAnagramas(String entrada) {
         validarEntrada(entrada);
@@ -20,7 +33,7 @@ public class GeradorAnagramas {
 
     private void validarEntrada(String entrada) {
         if (StringUtils.isBlank(entrada) || !StringUtils.isAlpha(entrada)) {
-            throw new IllegalArgumentException("A entrada não pode ser vazia e deve conter apenas letras.");
+            throw new IllegalArgumentException(MSG_WARNING);
         }
     }
 
